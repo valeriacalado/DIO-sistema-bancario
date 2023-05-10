@@ -41,8 +41,6 @@ while True:
                 print("Seu limite é de R$ 500,00 (quinhentos reais) por saque. Tente novamente.")
             elif numero_saques >= 3:
                 print("Você atingiu o limite de saques diário.")
-            else:
-                print("Operação falhou, digite um valor válido.")
         except:
             print("Operação falhou, digite um valor válido.")
         continue
