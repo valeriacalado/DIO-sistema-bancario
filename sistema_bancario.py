@@ -22,7 +22,6 @@ while True:
             print(f"Seu saldo é R${saldo}")
         except:
             print("Operação falhou, digite um valor válido.")
-        continue
 
 #SAQUE
     elif operacao == str(2):
@@ -43,7 +42,6 @@ while True:
                 print("Você atingiu o limite de saques diário.")
         except:
             print("Operação falhou, digite um valor válido.")
-        continue
 
 # EXTRATO
     elif operacao == str(3):
@@ -58,4 +56,3 @@ while True:
 
     else:
         print("Operação inválida, por favor selecione a opção desejada.")
-        continue
